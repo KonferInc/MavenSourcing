@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Features } from '@components';
+import { Navbar, Features, Footer } from '@components';
 
 const Landing: React.FC = () => {
   return (
