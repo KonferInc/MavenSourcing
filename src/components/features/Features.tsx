@@ -1,7 +1,4 @@
-import React from 'react'
-import owlImage from '@assets/owl_crop.jpg'
-import catImage from '@assets/cat_crop.jpg'
-import rocksImage from '@assets/rocks_crop.jpg'
+import { owlImage, catImage, rocksImage } from '@assets'
 
 import './Features.css'
 
