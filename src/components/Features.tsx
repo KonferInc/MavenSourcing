@@ -1,12 +1,14 @@
 import React from 'react'
-import owlImage from '../assets/owl.jpg'
-import catImage from '../assets/cat.jpg'
-import rocksImage from '../assets/rocks.jpg'
+import owlImage from '@assets/owl_crop.jpg'
+import catImage from '@assets/cat_crop.jpg'
+import rocksImage from '@assets/rocks_crop.jpg'
+
+import './Features.css'
 
 const Features: React.FC = () => {
     return (
-        <div className="features-container">
-            <section className="feature">
+        <section className="features-container">
+            <div className="feature">
                 <div className="feature-content">
                     <h2>Malleable</h2>
                     <p>
@@ -15,9 +17,9 @@ const Features: React.FC = () => {
                     </p>
                 </div>
                 <img src={catImage} alt="Cat squeezed into a bookshelf" />
-            </section>
+            </div>
 
-            <section className="feature dark">
+            <div className="feature dark">
                 <img src={rocksImage} alt="Stacked stones balancing" />
                 <div className="feature-content">
                     <h2>Valiant</h2>
@@ -27,9 +29,9 @@ const Features: React.FC = () => {
                         of client coupled with any sort of sourcing requirement.
                     </p>
                 </div>
-            </section>
+            </div>
 
-            <section className="feature">
+            <div className="feature">
                 <div className="feature-content">
                     <h2>Noble</h2>
                     <p>
@@ -39,9 +41,9 @@ const Features: React.FC = () => {
                     </p>
                 </div>
                 <img src={owlImage} alt="Owl perched on a post" />
-            </section>
-        </div>
+            </div>
+        </section>
     )
 }
 
-export default Features
+export { Features }
