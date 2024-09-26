@@ -3,6 +3,8 @@ import owlImage from '../assets/owl_crop.jpg'
 import catImage from '../assets/cat_crop.jpg'
 import rocksImage from '../assets/rocks_crop.jpg'
 
+import './Features.css'
+
 const Features: React.FC = () => {
     return (
         <section className="features-container">
