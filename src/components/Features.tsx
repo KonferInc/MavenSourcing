@@ -1,7 +1,7 @@
 import React from 'react'
-import owlImage from '../assets/owl_crop.jpg'
-import catImage from '../assets/cat_crop.jpg'
-import rocksImage from '../assets/rocks_crop.jpg'
+import owlImage from '@assets/owl_crop.jpg'
+import catImage from '@assets/cat_crop.jpg'
+import rocksImage from '@assets/rocks_crop.jpg'
 
 import './Features.css'
 
@@ -46,4 +46,4 @@ const Features: React.FC = () => {
     )
 }
 
-export default Features
+export { Features }
