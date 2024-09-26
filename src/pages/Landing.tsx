@@ -1,11 +1,14 @@
-import { Navbar } from '@components'
+import React from 'react';
+import { Navbar, Features } from '@components';
 
-const Landing = () => {
-    return (
-        <>
-            <Navbar />
-        </>
-    );
+const Landing: React.FC = () => {
+  return (
+    <>
+      <Navbar />
+      <h1>Landing</h1>
+      <Features />
+    </>
+  );
 };
 
 export { Landing };

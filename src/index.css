@@ -10,3 +10,78 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f5f5f5;
 }
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  width: 100vw;
+  box-sizing: border-box;
+  height: 600px;
+  overflow: hidden;
+}
+
+.feature.dark {
+  background-color: #2b2d42;
+  color: white;
+}
+
+.feature-content {
+  flex: 1;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.feature h2 {
+  color: rgb(65, 65, 65);
+  font-size: 45px;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 60px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.feature p {
+  color: rgb(61, 63, 84);
+  font-size: 15px;
+  line-height: 21px;
+  font-family: "Ruda", sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.feature img {
+  max-width: 50%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.feature:nth-child(2) {
+  background-color: #3d3f54;
+  color: white;
+}
+
+.feature:nth-child(odd):not(:nth-child(2)) {
+  background-color: var(--e-global-color-primary);
+}
+
+.feature:nth-child(even):not(:nth-child(2)) {
+  background-color: var(--e-global-color-secondary);
+}
+
+.feature.dark h2,
+.feature.dark p,
+.feature:nth-child(2) h2,
+.feature:nth-child(2) p {
+  color: white;
+}
