@@ -7,8 +7,9 @@ const Landing: React.FC = () => {
       <Navbar />
       <h1>Landing</h1>
       <Features />
+      <Footer />
     </>
   );
 };
 
-export { Landing };
+export { Landing }
