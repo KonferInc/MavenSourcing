@@ -1,3 +1,3 @@
 export { Navbar } from './nav/Navbar'
-export { Features } from './Features'
-export { default as Footer } from './Footer'
+export { Features } from './features/Features'
+export { Footer } from './footer/Footer'
